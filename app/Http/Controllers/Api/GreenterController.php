@@ -31,8 +31,8 @@ class GreenterController extends Controller
             'clave_sol' => $data['clave_sol'],
             'clave_certificado' => $data['clave_certificado']
         ];
-        // $see=Helper::IdentificacionDocumentoPruebas();
-        $see = Helper::IdentificacionDocumentoProduccion($datosEmpresa);
+        $see=Helper::IdentificacionDocumentoPruebas();
+        // $see = Helper::IdentificacionDocumentoProduccion($datosEmpresa);
         switch ($data['tipoDoc']) {
             case '01':
                 $documento = 'Factura';
