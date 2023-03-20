@@ -1,0 +1,5 @@
+---
+  deployment:
+  tasks:
+   - export DEPLOYPATH=/home3/siste268/ApiGreenter.sistemasdurand.com/
+    - /bin/rsync -a --exclude 'index.php' /home3/siste268/repositories/ApiGreenter/   $DEPLOYPATH
