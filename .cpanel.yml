@@ -1,5 +1,5 @@
 ---
   deployment:
   tasks:
-    - export DEPLOYPATH=/home3/siste268/ApiGreenter.sistemasdurand.com/
-    - /bin/rsync -av /home3/siste268/repositories/ApiGreenter/public   $DEPLOYPATH
+    -export DEPLOYPATH=/home3/siste268/ApiGreenter.sistemasdurand.com/
+    -/bin/rsync -av /home3/siste268/repositories/ApiGreenter/public $DEPLOYPATH
