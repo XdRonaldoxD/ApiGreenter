@@ -25,6 +25,7 @@ class GreenterController extends Controller
     {
 
         $data = $request->json()->all();
+        dd($data);
         $datosEmpresa = [
             'ruc_empresa' => $data['company']['ruc'],
             'usuario_sol' => $data['usuario_sol'],
