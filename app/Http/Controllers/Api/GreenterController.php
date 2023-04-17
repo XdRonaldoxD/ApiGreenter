@@ -23,9 +23,9 @@ class GreenterController extends Controller
 
     public function EmitirDocumento(Request $request)
     {
-
+        dd("aca");
         $data = json_decode($request->getContent(), true);
-        dd($data);
+    
         $datosEmpresa = [
             'ruc_empresa' => $data['company']['ruc'],
             'usuario_sol' => $data['usuario_sol'],
