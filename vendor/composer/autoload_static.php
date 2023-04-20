@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite725a136aa1fb508d52f290893f7c7f8
+class ComposerStaticInita6e6007311c8383e9357e4e061076034
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -390,10 +390,10 @@ class ComposerStaticInite725a136aa1fb508d52f290893f7c7f8
         ),
         'Greenter\\' => 
         array (
-            0 => __DIR__ . '/..' . '/greenter/core/src/Core',
-            1 => __DIR__ . '/..' . '/greenter/lite/src/Greenter',
+            0 => __DIR__ . '/..' . '/greenter/xml/src',
+            1 => __DIR__ . '/..' . '/greenter/core/src/Core',
             2 => __DIR__ . '/..' . '/greenter/ws/src',
-            3 => __DIR__ . '/..' . '/greenter/xml/src',
+            3 => __DIR__ . '/..' . '/greenter/lite/src/Greenter',
         ),
         'Fruitcake\\Cors\\' => 
         array (
@@ -5397,10 +5397,10 @@ class ComposerStaticInite725a136aa1fb508d52f290893f7c7f8
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite725a136aa1fb508d52f290893f7c7f8::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite725a136aa1fb508d52f290893f7c7f8::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInite725a136aa1fb508d52f290893f7c7f8::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInite725a136aa1fb508d52f290893f7c7f8::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita6e6007311c8383e9357e4e061076034::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita6e6007311c8383e9357e4e061076034::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInita6e6007311c8383e9357e4e061076034::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInita6e6007311c8383e9357e4e061076034::$classMap;
 
         }, null, ClassLoader::class);
     }
